@@ -1,11 +1,13 @@
-Your choice <%= PLAYER.choice %><br>
-
-<% if GAME.winner == "its a draw" %><br>
-  it is a draw unlucky
+<div id="logo"><br><br><br>
+You Picked <%= PLAYER.choice %><br>
+<link href='/css/application.css' rel='stylesheet' type='text/css'>
+<% if GAME.winner == "its a draw" %><br><br><br>
+  IT'S A DRAW TRY AGAIN?<br><br><br>
 <% elsif GAME.winner == PLAYER.name %>
-  congratulations you won
+  CONGRATULATIONS YOU WIN<br><br><br>
 <% else %><br>
-  computer says no
+  YOU LOSE TRY AGAIN?<br><br><br>
 <% end %>
 
-<a href="/play_again" method="GET"><button>Play Again</button></a>
+<a href="/play_again" method="GET"><button class='myButton'>Play Again</button></a>
+</div>
