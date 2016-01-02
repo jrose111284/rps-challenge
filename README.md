@@ -1,16 +1,45 @@
 # RPS Challenge: Rōnin Badge Test
-Instructions:
-load up game in terminal with
-ruby my_app.rb
-it will take you to localhost
-you then have to enter your name to play agains computer.
-then it will give you a choice to select rock paper or scissors
-if you win it will say congratulations
-if you draw it will say its a draw
-if you lose it will say unlucky
-you then get anpther play again button if you with to play again.
+### My Instructions
 
-i have a big issue trying to get the tests to pass!!!
+Clone this repo!
+
+In terminal locate rps chaalenge
+
+run
+
+```
+ruby my_app
+```
+
+then open the browser type
+
+```
+localhost4567
+```
+
+This will load the game
+
+![home](public/images/home.png)
+
+enter your a name and click battle
+
+then select rock, paper or scissors
+
+![select a weapon](public/images/select.png)
+
+you will either win
+
+![win](public/images/win.png)
+
+lose
+
+![lose](public/images/lose.png)
+
+or draw
+![draw](public/images/draw.png)
+
+you can then play again if you want
+
 
 Instructions
 -------

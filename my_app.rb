@@ -11,7 +11,7 @@ class MyApp < Sinatra::Base
   COMPUTER = Player.new("Computer")
   GAME.player1 = PLAYER
   GAME.player2 = COMPUTER
-  THROWS = [:rock, :paper, :scissors]
+  THROWS = [:Rock, :Paper, :Scissors]
 
   get '/' do
     erb :index
@@ -26,7 +26,7 @@ class MyApp < Sinatra::Base
   post '/play' do
     session[:name]
     PLAYER.select(params[:choice])
-    COMPUTER.select([:rock, :paper, :scissors].sample)
+    COMPUTER.select([:Rock, :Paper, :Scissors].sample)
     erb :result
   end
 
